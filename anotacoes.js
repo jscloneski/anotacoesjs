@@ -94,3 +94,13 @@ Assim, conseguimos fazer um comentário mais extenso*/
     let appointment = null
 
 */
+
+//Variáveis são nomes simbólicos para receber algum valor
+/*
+        Atalhos de código
+        Identificadores
+        3 palavras reservadas para criar uma variável
+        * var
+        * let
+        * const
+*/
