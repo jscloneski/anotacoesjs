@@ -18,3 +18,11 @@ const clima = "Quente"
 clima = "Frio"
 
 console.log(clima) //irá apresentar erro
+
+//block statement
+
+{
+    let x = 0
+    console.log(x)
+}
+

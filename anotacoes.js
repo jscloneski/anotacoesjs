@@ -103,4 +103,21 @@ Assim, conseguimos fazer um comentário mais extenso*/
         * var
         * let
         * const
+
+
+        Variáveis não precisam ter um tipo previamente definido
+        Podemos mudar o conteúdo da variável
+
+
+        Scope
+        Escoppo determina a visibilidade de alguma variável no JS
+
+        Block statement
+        Iniciando um bloco:
+        {
+            ~aqui dentro é um bloco e é possível colocar qualquer código~
+        }
+
+        O var é global e poderá funcionar fora de um escopo de bloco
+        const e let são locais e só funcionam no escopo onde foram criados
 */
