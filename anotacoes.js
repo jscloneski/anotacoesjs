@@ -121,3 +121,5 @@ Assim, conseguimos fazer um comentário mais extenso*/
         O var é global e poderá funcionar fora de um escopo de bloco
         const e let são locais e só funcionam no escopo onde foram criados
 */
+
+//lista de exercícios em ./anotacoes.js
