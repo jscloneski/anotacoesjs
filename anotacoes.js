@@ -123,3 +123,39 @@ Assim, conseguimos fazer um comentário mais extenso*/
 */
 
 //lista de exercícios em ./anotacoes.js
+
+//FUNÇÕES
+
+/*
+        Functions
+
+        Repete códigos e declara (declaration)
+
+        function createPhrases() {
+            console.log("joaoscloneski")
+            console.log("joaoneski")
+            console.log("joaosclonei")
+        }
+
+        executar a função
+
+        rodar, chamar, invocar (execute, run, call, invoke)
+
+        createPhrases()
+        createPhrases()
+        createPhrases()
+
+        console.log('fim do programa')
+
+        function expression
+        function anonymous
+
+        parâmetros (parameters)
+        declarar função dentro de variável:
+
+        const sum = function(){
+
+        }
+
+        sum(2, 3)
+*/
