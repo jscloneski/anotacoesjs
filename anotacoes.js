@@ -153,9 +153,12 @@ Assim, conseguimos fazer um comentário mais extenso*/
         parâmetros (parameters)
         declarar função dentro de variável:
 
-        const sum = function(){
-
+        const sum = function(number1, number2){
+            let total = number1 + number2
+            return total
         }
 
-        sum(2, 3)
+        let number1 = 34
+        let number2 = 24
+        sum(number1, number2)
 */
