@@ -161,4 +161,42 @@ Assim, conseguimos fazer um comentário mais extenso*/
         let number1 = 34
         let number2 = 24
         sum(number1, number2)
+
+
+        function hoisting
+
+        sayMyName()
+
+        function sayMyName() {
+            console.log('Scloneski')
+        }
+
+
+        arrow function
+
+        const sayMyName = () => {
+            console.log('Scloneski')
+        }
+
+        sayMyName()
+
+
+        function() constructor
+
+        * expressão new
+        * criar um novo objeto
+        * this keyword
+
+        function Person(name) {
+            this.name = name
+            this.walk = function() {
+                return this.name + "está andando"
+            }
+        }
+
+        const fulano = new Person ("Fulano")
+        const cicrano = new Person ("Cicrano")
+        console.log(fulano.walk())
+        console.log(cicrano.walk())
+
 */
