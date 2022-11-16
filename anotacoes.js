@@ -199,4 +199,14 @@ Assim, conseguimos fazer um comentário mais extenso*/
         console.log(fulano.walk())
         console.log(cicrano.walk())
 
+
+        Js é uma linguagem baseada em PROTÓTIPOS
+
+        *cadeia de protótipos
+        *__proto__
+
+
+        Type conversion (typecasting) vs Type coersion
+
+        *alteração de um tipo de dado para outro tipo
 */
