@@ -209,4 +209,107 @@ Assim, conseguimos fazer um comentário mais extenso*/
         Type conversion (typecasting) vs Type coersion
 
         *alteração de um tipo de dado para outro tipo
+
+
+        Manipulando strings e números
+
+        tranformar string em número e número em string
+
+        let string = '123'
+        console.log(Number(string))
+        let number = 321
+        console.log(String(number))
+
+
+       *** Manipulando Strings e Números
+
+        Contar quantos caracteres tem uma palavra e quantos dígitos tem um número
+
+        let word = "Paralelepípedo"
+        console,log(word.lenght)
+        let number = 1234
+        console.log(String(number).length) // não funciona sem antes tranformar number em uma String
+
+        Transformar um número quebrado com 2 casas decimais e trocar ponto por vírgula
+        let number = 325.342342
+        console.log(number.toFixed(2).replace(".", ","))
+
+        Transformar letras minúsculas em maiúsculas. E depois ao contrário.
+
+        let word = "Programar é muito bom!"
+        console.log(word.toUpperCase())
+        ou
+        console.log(word.toLowerCase())
+
+
+        Manipulando Strings e Arrays
+
+        Separe um texto que contém espaços, em um novo array onde cada texto é uma posição do array. Depois disso, tranforme o array em um texto e onde eram espaços, coloque _
+
+        let phrase = "Eu quero viver o Amor!"
+        let myArray = phrase.split(" ")
+        let phraseWithUnderscore = myArray.join("_")
+        console.log(phraseWithUnderscore.toLowerCase())
+
+
+        Manipulando Strings
+
+        Verificar se o texto contém a palavra Amor
+
+        let phrase = "Eu quero viver o Amor!"
+        console.log(phrase.includes("Amor"))
+
+        Manipulando Arrays
+
+        Criar Array com construtor
+
+        let myArray = new Array('a', 'b', 'c')
+        console,log(myArray)
+
+
+        contar elementos de um Array
+
+        console.log(["a", "b", "c"].length)
+
+
+        Tranformar uma cadeia de caracteres em elementos de um array
+
+        let word = "manipulação"
+        console.log(Array.from(word))
+
+
+        Manipulando Arrays
+
+        let techs = ["html, "css", "js"]
+
+        adicionar um item no fim
+
+        techs.push("nodejs")
+
+        adicionar um no começo
+
+        techs.unshift("sql")
+
+        remover do fim
+
+        techs.pop()
+
+        Remover do começo
+
+        techs.shift()
+
+        pegar somente alguns elementos do Array
+
+        console.log(techs.slice(1,3))
+
+        remover 1 ou mais itens em qualquer posição no array
+
+        techs.splice(1, 2)
+
+        encontrar a posição de um elemento no array
+
+        let index = techs.indexOf('css')
+        techs.splice(index, 1)
+
+        //console.log(techs)
 */
