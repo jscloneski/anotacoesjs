@@ -389,4 +389,50 @@ Assim, conseguimos fazer um comentário mais extenso*/
             console.log( one != "1" ) // false
 
 
+            // === estritamente igual a
+            console.log( one === "1")
+            console.log( one === 1)
+
+
+            !== estritamente diferente de
+            console.log( two !== "2")
+            console.log( two !== 2 )
+
+
+            assignment
+
+            x = 1
+            console.log(x) // 1
+
+            x = x * 2
+            console.log(x) // 2
+
+            Operadores lógicos (logical operators)
+
+            2 valores booleanos, quando verificados, resultará em verdadeiro ou falso
+
+            let pao = true
+            let queijo = false
+
+            // AND &&
+            console.log(pao && queijo)
+
+            // OR ||
+            console.log(pao || queijo)
+
+            // NOT !
+            console.log(!pao)
+
+
+            Condição então valor 1 se não valor 2
+            condition ? value1 : value2
+
+            //Ex:
+            // Café da manhã top
+            let pao = true
+            let queijo = tru
+
+            const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim'
+
+            console.log(niceBreakfast)
 */
