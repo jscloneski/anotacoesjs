@@ -435,4 +435,22 @@ Assim, conseguimos fazer um comentário mais extenso*/
             const niceBreakfast = pao && queijo ? 'Café top' : 'Café ruim'
 
             console.log(niceBreakfast)
+
+
+            String operator
+
+            concatenation 
+
+            let alpha = 'alpha'
+            console.log( alpha + 'bet') // alphabet
+
+
+            falsy
+            quando um valor é considerado false em contextos onde um booleano é obrigatório (condicionais e loops)
+
+            Truthy 
+            quando um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
+
+
+            
 */
