@@ -452,5 +452,55 @@ Assim, conseguimos fazer um comentário mais extenso*/
             quando um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
 
 
-            
+            Control flow
+
+            if...else
+
+            let temperature = 36.5
+
+            if (temperature >= 37) {
+                console.log('Febre')
+            } else {
+                console.log('Saudável')
+            }
+
+
+            Switch
+
+            function calculate(number1, operator, number2) {
+                let result = 0;
+
+                switch (operator) {
+                    case '+':
+                        result = number1 + number2
+                        break
+                    case '-':
+                        result = number1 - number2
+                        break
+                    default:
+                        console.log('não implementado')
+                        break
+                }
+            }
+
+
+            Throw e Try/Catch
+
+            function sayMyName(name = '') {
+                if (name === '') {
+                    throw 'Nome é obrigatório'
+                }
+
+                console.log('depois do erro')
+            }
+
+            //try...catch
+
+            try {
+                sayMyName()
+            } catch(e) {
+                console.log(e)
+            }
+
+            console.log('Após a função de erro')
 */
